@@ -1,0 +1,11 @@
+{% extends "_layouts/cp" %}
+{% set centered = true %}
+
+{% set title = "Wordpress Import" %}
+
+{% set content %}
+    <p>Check README.md for help on setting up configuration before running import.</p>
+    <div class="buttons">
+        <a class="btn submit" href="{{ actionUrl('WordpressImport/import') }}">Start import</a>
+    </div>
+{% endset %}
